@@ -1,0 +1,29 @@
+# Network Security Group (NSG) Structure and Rules
+
+## 1. Introduction
+
+A Network Security Group (NSG) is an Azure networking resource used to filter inbound and outbound network traffic.
+
+An NSG contains security rules that determine whether traffic should be:
+
+- Allowed
+- Denied
+
+NSGs can be associated with:
+
+- Network interfaces
+- Subnets
+
+---
+
+# 2. Inbound Traffic
+
+Inbound traffic is traffic coming into a resource.
+
+Example:
+
+```text
+Internet
+   |
+   v
+VM
